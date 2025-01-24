@@ -1,0 +1,10 @@
+[package]
+name = "pomodoro-timer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.24.1"
+egui = "0.24.1"
+chrono = "0.4.31"
+winapi = { version = "0.3.9", features = ["winuser", "windef"] }
